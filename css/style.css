@@ -1,0 +1,1403 @@
+/*
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [:::::[                      ]:::::]
+    [:::::[  Omar-Muhammed       ]:::::]
+    [:::::[  Started  : 8/9/18   ]:::::]
+    [:::::[  Ended    : 8/12/18  ]:::::]
+    [:::::[  Version  : 1.2      ]:::::]
+    [:::::[  Contact Me @_@      ]:::::]
+    [:::::[  twit >>OmarMuhammedz]:::::]
+    [:::::[  git  >>Omar_gxr     ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+*/
+
+
+
+body
+{
+    height: 4000px;
+}
+
+/* start navbar*/
+.navbar-inverse .navbar-brand
+{
+    color: white;
+    font-size: 23px
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover
+{
+    background-color: #3498DB
+}
+
+.navbar-collapse
+{
+    overflow: hidden
+}
+.navbar-nav
+{
+    overflow: hidden;
+    direction: rtl;
+    float: right
+}
+
+.navbar-nav li 
+{
+    float: right;
+    margin-left: 20px
+}
+
+.navbar-nav li a
+{
+    color: red;
+    font-family: 'DroidArabicKufiRegular';
+}
+
+.container-fluid form
+{
+    overflow: hidden;
+    margin-top: 7px;
+    
+}
+
+.container-fluid form input
+{
+    direction: rtl;
+    border-radius: 15px 0;
+    padding-right: 5px;
+    background: none;
+    background-color: #EEE;
+}
+
+.container-fluid form input:focus
+{
+    background-color: white
+}
+
+.navbar-brand
+{
+    font-family: 'DroidArabicKufiRegular';
+}
+@media (max-width: 767px)
+{    
+    .navbar-brand
+    {
+        float: right;
+        margin-right: 30px;
+    }
+    
+    .navbar-toggle
+    {
+        float: left;
+        margin-left: 20px;
+    }
+    
+    .navbar-nav
+    {
+        margin-bottom: 10px;
+    }  
+}
+
+@media (min-width: 768px) and (max-width: 806px)
+{
+    .navbar-nav li
+    {
+        margin-left: 12px
+    }
+}
+
+/*End navbar*/
+
+/*Start header img*/
+
+.header-img
+{
+    margin-top: 50px;
+    min-height: 717px;
+    width: 100%;
+    background: url("../image/pic4.jpg") no-repeat center center fixed;
+    background-size: cover
+}
+
+.header-img .text
+{
+    min-height: 717px;
+    background: rgba(2,2,2,0.8);
+    padding-top: 100px
+}
+
+.header-img .container
+{
+    padding-top: 100px
+}
+
+.header-img .container h1
+{
+    font-size: 100px;
+    margin-bottom: 50px;
+    color: white;
+    text-shadow:0 3px 26px #3498DB;
+    font-family: 'Lemonada', cursive;
+}
+
+.header-img .container p::selection,
+.header-img .container h1::selection
+{
+    color: black
+}
+
+.header-img .container p
+{
+    font-size: 50px;
+    text-shadow: 0 3px 26px #3498DB;
+    color: white;
+    font-family: 'DroidArabicKufiRegular';
+}
+
+/*End Header img*/
+
+/*Start About Wb-site*/
+
+.web
+{
+    padding-top: 70px;
+    background: #eee;
+    height: 870px;
+    overflow: hidden;
+}
+
+.web .left-pic
+{
+    box-shadow: 0px 7px 52px -20px;
+    height: 715px;
+    max-width: 660px;
+    background: #fff;
+}
+
+.web .left-pic:hover
+{
+    box-shadow :0px 8px 52px -17px;
+    transition:all .3s ease-in-out
+}
+
+.web .left-pic img
+{
+    width: 100%;
+    padding-bottom: 5px
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9
+{
+    padding-left: 0;
+    padding-right: 0
+}
+
+.web .left-pic h5
+{
+    padding-right: 10px;
+    font-family: 'Tajawal', sans-serif;
+    
+}
+
+.web .left-pic h2 
+{
+    font-family: 'DroidArabicKufiRegular';
+}
+
+.web .left-pic p
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    direction: rtl;
+    line-height: 20px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.web .left-pic .btn-primary
+{
+    padding: 10px 30px;
+    background: #3498DB;
+    border: 1px solid #ddd;
+    margin-top: 10px
+}
+
+hr
+{
+    margin-top: 0;
+    width: 300px;
+    border-top: 1px solid #3498DB;
+}
+
+.web .right-pic
+{
+    box-shadow: 0px 7px 52px -20px;
+    height: 715px;
+    max-width: 660px;
+    background: #fff;
+    float: right;
+}
+
+.web .right-pic:hover
+{
+    box-shadow :0px 8px 52px -17px;
+    transition:all .3s ease-in-out
+}
+
+.web .right-pic img
+{
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.web .right-pic h5
+{
+    padding-right: 10px;
+    font-family: 'Tajawal', sans-serif;
+    
+}
+
+.web .right-pic h2 
+{
+    font-family: 'DroidArabicKufiRegular';
+}
+
+.web .right-pic p
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    direction: rtl;
+    line-height: 20px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.web .right-pic .btn-primary
+{
+    padding: 10px 30px;
+    background: #3498DB;
+    border: 1px solid #ddd;
+    margin-top: 10px
+}
+
+@media (min-width:10px) and (max-width:575px){
+    .web .left-pic
+    {
+        float: left ;
+        min-height: 970px
+    }
+    
+    .web{
+        height: 1060px
+    }
+    
+    .web .right-pic
+    {
+        float: right;
+        min-height: 970px
+    }
+}
+@media (min-width:576px) and (max-width:667px)
+{
+    .web .left-pic
+    {
+        float: left ;
+        min-height: 770px
+    }
+
+    .web .right-pic
+    {
+        float: right;
+        min-height: 770px
+    }
+    
+    
+    hr
+    {
+        width: 200px
+    }
+}
+
+@media (min-width:668px) and (max-width:730px)
+{
+    .web .left-pic
+    {
+        float: left ;
+        min-height: 780px
+    }
+
+    .web .right-pic
+    {
+        float: right;
+        min-height: 780px
+    }
+    
+    hr
+    {
+        width: 200px
+    }
+}
+
+/*End About Wb-site*/
+
+/* Start News */
+.news
+{
+
+    background: url("../image/pic7.jpg") no-repeat center center fixed; 
+    height: 800px;
+    background-size: cover;
+    overflow: hidden
+}
+
+.news .news-pic
+{
+    background: rgba(2,2,2,.8);
+    height: 800px
+}
+
+.news .news-pic h2
+{
+    padding-top: 40px;
+    font-size: 40px;
+    color: white;
+    text-shadow: -3px 1px 3px #3498DB;
+    font-family: 'DroidArabicKufiRegular';
+}
+
+.news .news-pic h2::selection
+{
+    color: black
+}
+
+.one
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(238,238,238,.3);
+    padding-bottom: 15px;
+    border-right: 5px solid black
+}
+
+.one h3
+{
+    text-align: right;
+    color: azure;
+    margin-top: 2px;
+    font-family: 'DroidArabicKufiRegular';
+}
+
+.one img
+{
+    float: right;
+    padding-left: 10px
+}
+
+.one p
+{
+    text-align: right;
+    direction: rtl;
+    color: azure;
+    line-height: 22px;
+    font-family: 'Tajawal', sans-serif;
+    
+}
+
+.two
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(238,238,238,.3);
+    padding-bottom: 15px;
+    border-right: 5px solid black
+}
+
+.two h3
+{
+    text-align: right;
+    color: azure;
+    margin-top: 2px;
+    font-family: 'DroidArabicKufiRegular';
+}
+
+.two img
+{
+    float: right;
+    padding-left: 10px
+}
+
+.two p
+{
+    text-align: right;
+    direction: rtl;
+    color: azure;
+    line-height: 22px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.three
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(238,238,238,.3);
+    padding-bottom: 15px
+}
+
+.three h3
+{
+    text-align: right;
+    color: azure;
+    margin-top: 2px;
+    font-family: 'DroidArabicKufiRegular';
+}
+
+.three img
+{
+    float: right;
+    padding-left: 10px
+}
+
+.three p
+{
+    text-align: right;
+    direction: rtl;
+    color: azure;
+    line-height: 22px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.four
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 90px;
+    background-color: rgb(238,238,238,.3);
+    padding-bottom: 15px;
+    border-right: 5px solid black
+}
+
+.four h3
+{
+    text-align: right;
+    color: azure;
+    margin-top: 2px;
+    font-family: 'DroidArabicKufiRegular';
+}
+
+.four img
+{
+    float: right;
+    padding-left: 10px
+}
+
+.four p
+{
+    text-align: right;
+    direction: rtl;
+    color: azure;
+    line-height: 22px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.five
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 90px;
+    background-color: rgb(238,238,238,.3);
+    padding-bottom: 15px;
+    border-right: 5px solid black
+}
+
+.five h3
+{
+    text-align: right;
+    color: azure;
+    margin-top: 2px;
+    font-family: 'DroidArabicKufiRegular';
+}
+
+.five img
+{
+    float: right;
+    padding-left: 10px;
+}
+
+.five p
+{
+    text-align: right;
+    direction: rtl;
+    color: azure;
+    line-height: 22px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.six
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 90px;
+    background-color: rgb(238,238,238,.3);
+    padding-bottom: 15px
+}
+
+.six h3
+{
+    text-align: right;
+    color: azure;
+    margin-top: 2px;
+    font-family: 'DroidArabicKufiRegular';
+}
+
+.six img
+{
+    float: right;
+    padding-left: 10px
+}
+
+.six p
+{
+    text-align: right;
+    direction: rtl;
+    color: azure;
+    line-height: 22px;
+    font-family: 'Tajawal', sans-serif;
+    
+}
+
+@media(min-width:0) and (max-width:767px)
+{
+    .news
+    {
+        height: 700px
+    }
+    .one
+    {
+        border-bottom: 5px solid black;
+        border-right: none
+    }
+    
+    .two
+    {
+        border-bottom: 5px solid black;
+        border-right: none
+    }
+    
+    .news
+    {
+        height: 940px
+    }
+}
+
+@media(min-width:768px) and (max-width:991px)
+{
+    .news
+    {
+        height: 700px
+    }
+    
+    .three 
+    {
+        border-top: 5px solid black;
+        border-right: 5px solid black
+    }
+    
+    .four
+    {
+        margin-top: 0;
+        border-top: 5px solid black 
+    }
+}
+/* End News */
+
+/*Start Services*/
+
+.services
+{
+    padding-top: 33px;
+    background: #eee;
+    height: 790px;
+    overflow: hidden;
+}
+
+.services .text-center
+{
+    font-family: 'DroidArabicKufiRegular';
+}
+
+.services .text-center::selection
+{
+    color: #3498DB
+}
+.kirkuk
+{
+    min-height: 300px;
+    max-width: 300px;
+    background: white;
+    margin-right: 30px;
+    float: left;
+    margin-bottom: 25px;
+    box-shadow: 5px 7px 43px -20px;
+    border-radius: 0 0 20px 20px
+}
+
+.kirkuk:hover
+{
+    box-shadow: 0px 10px 43px -17px;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.kirkuk img
+{
+    max-width: 300px;
+}
+
+.kirkuk h4
+{
+    text-align: right;
+    padding-right: 10px;
+    border-bottom: 2px solid #3498DB;
+    padding-bottom: 10px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.kirkuk ul li
+{
+    text-align: right;
+    padding-right: 10px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.najaf
+{
+    min-height: 300px;
+    max-width: 300px;
+    background: white;
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    box-shadow: 5px 7px 43px -20px;
+    border-radius: 0 0 20px 20px
+}
+
+.najaf:hover
+{
+    box-shadow: 0px 10px 43px -17px;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.najaf img
+{
+    max-width: 300px;
+}
+
+.najaf h4
+{
+    text-align: right;
+    padding-right: 10px;
+    border-bottom: 2px solid #3498DB;
+    padding-bottom: 10px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.najaf ul li
+{
+    text-align: right;
+    padding-right: 10px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.erbil
+{
+    min-height: 300px;
+    max-width: 300px;
+    background: white;
+    float: right;
+    margin-right: 100px;
+    margin-bottom: 25px;
+    box-shadow: 5px 7px 43px -20px;
+    border-radius: 0 0 20px 20px
+}
+
+.erbil:hover
+{
+    box-shadow: 0px 10px 43px -17px;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.erbil img
+{
+    max-width: 300px;
+}
+
+.erbil h4
+{
+    text-align: right;
+    padding-right: 10px;
+    border-bottom: 2px solid #3498DB;
+    padding-bottom: 10px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.erbil ul li
+{
+    text-align: right;
+    padding-right: 10px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.karbala
+{
+    min-height: 300px;
+    max-width: 300px;
+    background: white;
+    margin-right: 30px;
+    float: left;
+    box-shadow: 5px 7px 43px -20px;
+    border-radius: 0 0 20px 20px
+}
+
+.karbala:hover
+{
+    box-shadow: 0px 10px 43px -17px;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.karbala img
+{
+    max-width: 300px;
+}
+
+.karbala h4
+{
+    text-align: right;
+    padding-right: 10px;
+    border-bottom: 2px solid #3498DB;
+    padding-bottom: 10px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.karbala ul li
+{
+    text-align: right;
+    padding-right: 10px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.sulaimanyah
+{
+    min-height: 300px;
+    max-width: 300px;
+    background: white;
+    float: right;
+    margin-left: 30px;
+    box-shadow: 5px 7px 43px -20px;
+    border-radius: 0 0 20px 20px
+}
+
+.sulaimanyah:hover
+{
+    box-shadow: 0px 10px 43px -17px;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.sulaimanyah img
+{
+    max-width: 300px;
+}
+
+.sulaimanyah h4
+{
+    text-align: right;
+    padding-right: 10px;
+    border-bottom: 2px solid #3498DB;
+    padding-bottom: 10px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.sulaimanyah ul li
+{
+    text-align: right;
+    padding-right: 10px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.basra
+{
+    min-height: 300px;
+    max-width: 300px;
+    background: white;
+    float: right;
+    margin-right: 100px;
+    box-shadow: 5px 7px 43px -20px;
+    border-radius: 0 0 20px 20px
+}
+
+.basra:hover
+{
+    box-shadow: 0px 10px 43px -17px;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.basra img
+{
+    max-width: 300px;
+}
+
+.basra h4
+{
+    text-align: right;
+    padding-right: 10px;
+    border-bottom: 2px solid #3498DB;
+    padding-bottom: 10px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.basra ul li
+{
+    text-align: right;
+    padding-right: 10px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+@media (min-width:10px) and (max-width:575px){
+    .services
+    {
+        height:1500px
+    }
+    
+    .kirkuk
+    {
+        margin-left: 110px
+    }
+    
+    .karbala
+    {
+        margin-left: 110px;
+        margin-bottom: 30px
+    }
+    
+    .sulaimanyah
+    {
+        margin-left: 110px;
+        float: left;
+        width: 300px
+    }
+    
+    .najaf
+    {
+        margin-left: 110px;
+        float: left;
+        width: 300px
+    }
+}
+
+@media (min-width:576px) and (max-width:701px){
+    .services
+    {
+        height:1400px
+    }
+    
+    .kirkuk
+    {
+        float: right;
+        margin-right: 170px
+    }
+    
+    .karbala
+    {
+        float: right;
+        margin-right: 170px;
+        margin-bottom: 30px
+    }
+    
+    .sulaimanyah
+    {
+        float: right;
+        margin-right: 170px
+    }
+    
+    .najaf
+    {
+        float: right;
+        margin-right: 170px
+        
+    }
+}
+@media (min-width:702px) and (max-width:767px)
+{
+    .services
+    {
+        min-height:800px
+    }
+    
+    .kirkuk
+    {
+        float: right;
+        margin-left: 25px
+    }
+    
+    .karbala
+    {
+        margin-left: 40px;
+        margin-right: 0
+    }
+    
+    .sulaimanyah
+    {
+        margin-right: 30px;
+        margin-left: 0;
+    }
+    
+    .basra
+    {
+        float: left;
+        margin-right: 0;
+        margin-left: 40px;
+        margin-top: 25px
+        
+    }
+}
+@media (min-width:768px) and (max-width:991px)
+{
+    .services
+    {
+        height: 800px
+    }
+    
+    .kirkuk
+    {
+        margin-right: 0;
+        width: 230px
+    }
+    .kirkuk img
+    {
+        max-width: 230px
+    }
+    
+    .najaf
+    {
+        margin-left: 0; 
+        width: 230px
+    }
+    
+    .najaf img
+    {
+        max-width: 230px
+    }
+    
+    .erbil
+    {
+        margin-right: 0;
+        width: 230px;
+        margin-right: 30px
+    }
+    .erbil img
+    {
+        max-width: 230px
+    }
+    
+    .karbala
+    {
+        margin-right: 0;
+        width: 230px
+    }
+    .karbala img
+    {
+        max-width: 230px
+    }
+    
+    .sulaimanyah
+    {
+        margin-left: 0; 
+        width: 230px;
+    }
+    
+    .sulaimanyah img
+    {
+        max-width: 230px
+    }
+    
+    .basra
+    {
+        margin-right: 0;
+        width: 230px;
+        margin-right: 30px
+    }
+    .basra img
+    {
+        max-width: 230px
+    }
+}
+
+@media (min-width:991px) and (max-width:1199px)
+{
+    .kirkuk
+    {
+        margin-right: 0;
+    }
+    
+    .najaf
+    {
+        margin-left: 0;
+    }
+    
+    .erbil
+    {
+        margin-right: 33px
+    }
+    
+    .karbala
+    {
+        margin-right: 0;
+    }
+    
+    .sulaimanyah
+    {
+        margin-left: 0;
+    }
+    
+    .basra
+    {
+        margin-right: 33px
+    }
+}
+
+/*End Services*/
+
+/*Start about-us*/
+
+.about-us
+{
+    height: 765px;
+    background: url(../image/pic9.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.about-us .about
+{
+    background: rgba(2,2,2,.9);
+    height: 765px;
+}
+
+.team
+{
+    direction: rtl;
+    padding-bottom: 100px;
+    background:rgb(52,152,219,.5);
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 12px 12px 12px 12px;
+    
+}
+
+.team h2
+{
+    font-size: 40px;
+    padding-top: 30px;
+    color: white;
+    font-family: 'DroidArabicKufiRegular';
+}
+
+.team h2::selection
+{
+    color: black;
+    background-color: #3498DB
+}
+
+.team p
+{
+    font-size: 25px;
+    padding-top: 20px;
+    color: white;
+    font-family: 'DroidArabicKufiRegular';
+}
+
+.team p::selection
+{
+    color: black;
+    background-color: #3498DB
+}
+
+.about-web
+{
+    margin-top: 100px;
+    direction: rtl;
+    text-align: center;
+    background: rgb(52,152,219,.5);
+    height: 230px;
+    border-radius: 12px 12px 12px 12px;
+}
+
+.about-web h2
+{
+    font-size: 40px;
+    padding-top: 30px;
+    color: white;
+    font-family: 'DroidArabicKufiRegular';
+}
+
+.about-web h2::selection
+{
+    color: black;
+    background-color: #3498DB
+}
+
+.about-web p
+{
+    font-size: 25px;
+    padding-top: 20px;
+    color: white;
+    font-family: 'DroidArabicKufiRegular';
+}
+
+.about-web p::selection
+{
+    color: black;
+    background-color: #3498DB
+}
+/*End about-us*/
+
+/*Start Contact*/
+
+.contact
+{
+    height: 730px;
+    background-color: #eee;
+    padding: 100px
+}
+
+.container
+{
+    
+}
+.container .container1
+{
+    float: right;
+    margin-top: 30px;
+    height: 510px;
+    width: 700px;
+    margin-right: 235px;
+    background-color: white;
+    box-shadow: 10px 10px 47px -15px
+}
+
+form legend
+{
+    text-align: center;
+    padding: 30px;
+    font-size: 26px;
+    color: #3498DB;
+    background: rgba(26,26,26);
+    font-family: 'DroidArabicKufiRegular';
+}
+
+form .name
+{
+    float: right;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 70px;
+    padding-right: 5px;
+    direction: rtl;
+    background-color: #eee;
+    border-radius: 7px;
+    border: none;
+    margin-right: 10px;
+    font-family: 'DroidArabicKufiRegular';
+}
+
+form .email
+{
+    float: left;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 70px;
+    padding-right: 5px;
+    direction: rtl;
+    background-color: #eee;
+    border-radius: 7px;
+    border: none;
+    margin-left: 10px;
+    font-family: 'DroidArabicKufiRegular';
+}
+
+form .number
+{
+    float: right;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 420px;
+    padding-right: 5px;
+    direction: rtl;
+    background-color: #eee;
+    border-radius: 7px;
+    border: none;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-family: 'DroidArabicKufiRegular';
+}
+
+form textarea
+{
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 96px;
+    padding-left: 416px;
+    padding-right: 5px;
+    direction: rtl;
+    background-color: #eee;
+    border-radius: 7px;
+    border: none;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-family: 'DroidArabicKufiRegular';
+}
+
+form .btn-primary
+{
+    float: right;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    border-radius: 7px;
+    border: none;
+    margin-top: 20px;
+    margin-right: 10px; 
+    padding-right: 318px;
+    padding-left: 318px;
+    background:rgb(26,26,26);
+    color:#3498DB;
+    font-size: 17px;
+    font-family: 'DroidArabicKufiRegular';
+}
+
+form .btn-primary:hover
+{
+    background-color: #3498DB;
+    color: rgb(26,26,26)
+}
+
+@media (min-width:0) and (max-width:767px)
+{
+    .container .container1
+    {
+        margin-right: 0;
+        width: 500px;
+    }
+    
+    form .name
+    {
+        padding-left: 0;
+        font-family: cursive
+    }
+    
+    form .email
+    {
+        font-family: cursive
+    }
+    
+    form .number
+    {
+        font-family: cursive;
+        padding-left: 277px
+    }
+    
+    form textarea
+    {
+        font-family: cursive;
+        padding-left: 295px
+    }
+    
+    form .btn-primary
+    {
+        padding-left: 222px;
+        padding-right: 222px
+    }
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+    .container .container1
+    {
+        margin-right: 35px;
+        width: 700px
+    }
+}
+
+/*End Contact*/
+
+/*Start footer*/
+.foot 
+{
+    height: 230px;
+    background: rgb(26,26,26)
+}
+
+.foot h3
+{
+    font-family: 'DroidArabicKufiRegular';
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+
+.foot h5
+{
+    color: white;
+    font-family: 'DroidArabicKufiRegular';
+    margin-top: 40px
+}
+
+.foot .social
+{
+    margin-bottom: 70px
+}
+
+.fa-facebook-square
+{
+    margin-right: 10px;
+    color: #333
+}
+
+.fa-facebook-square:hover
+{
+    color: #475993;
+    transition: all .4s ease-in-out
+}
+.fa-twitter-square
+{
+    margin-right: 10px;
+    color: #333
+}
+
+.fa-twitter-square:hover
+{
+    color: #2DAAE1;
+    transition: all .4s ease-in-out
+}
+
+.fa-youtube-square
+{
+    color: #333
+}
+
+.fa-youtube-square:hover
+{
+    color: #DE2825;
+    transition: all .4s ease-in-out
+}
+/*End footer*/
